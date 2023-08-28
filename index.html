@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" id="theme-style">
+    <title>Your Website</title>
+</head>
+<body>
+    <header class="transparent-header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round">
+                    <i class="fas fa-sun day-icon"></i>
+                    <i class="fas fa-moon night-icon"></i>
+                </span>
+            </label>
+        </nav>
+    </header>
+    <div class="video-container">
+        <video id="myVideo" autoplay loop>
+            <source src="vid.mp4" type="video/mp4">
+            Welcome to world of Leaders
+        </video>
+        <div class="video-overlay">
+            <button id="muteButton" class="mute-button" onclick="toggleMute()">
+                <span class="icon-mute">🔊</span>
+                <span class="icon-unmute">🔇</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="car-gallery">
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT-5,204 cm³ (317.57 cu in)<br></p>
+                        <p><br>MAX. POWER (KW/CV)-610 CV (449 kW) @ 8,000 rpm<br><br></p>
+                        <p>TOP SPEED-260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION-0-100 KM/H (0-62 MPH)   3.4 s<br><br></p>
+                        <p>COMBINED CONSUMPTION*-14,9 l/100km (WLTP)<br><br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*<br><br></p>
+                        <p>Year: 2023</p>
+                        <p>Price:$------</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpaperaccess.com/full/8426793.jpg">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpaperaccess.com/full/8426796.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpaperaccess.com/full/8426800.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpapercave.com/dwp1x/wp9391807.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpapercave.com/dwp1x/wp4792057.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpapercave.com/dwp1x/wp6761460.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://e0.pxfuel.com/wallpapers/355/80/desktop-wallpaper-front-rolls-royce-phantom-portrait-ghost-car-thumbnail.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://wallpapercave.com/dwp1x/wp8879507.jpg" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-card-inner">
+                    <div class="car-card-front">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Car 1">
+                    </div>
+                    <div class="car-card-back">
+                        <h2>MW</h2>
+                        <p>TECHNICAL SPECIFICATIONS<br></p>
+                        <p>DISPLACEMENT<br>5,204 cm³ (317.57 cu in)</p>
+                        <p><br>MAX. POWER (KW/CV)<br>610 CV (449 kW) @ 8,000 rpm<br></p>
+                        <p>TOP SPEED<br>260 km/h (161.5 mph)<br></p>
+                        <p>ACCELERATION<br>0-100 KM/H (0-62 MPH)   3.4 s<br></p>
+                        <p>COMBINED CONSUMPTION*<br>14,9 l/100km (WLTP)<br></p>
+                        <p></p>COMBINED CO2 EMISSIONS*</p>
+                        <p>Year: 2023</p>
+                        <p>Price: </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more car cards as needed -->
+        </div>
+    </div>
+    
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
