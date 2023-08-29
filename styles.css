@@ -157,7 +157,9 @@ video {
 .car-card:hover .car-card-inner {
     transform: rotateY(180deg);
 }
-
+.text{
+    font-weight: bolder;
+}
 .car-card-front,
 .car-card-back {
     width: 100%;

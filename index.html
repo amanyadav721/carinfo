@@ -28,12 +28,13 @@
         </nav>
     </header>
     <div class="video-container">
-        <video id="myVideo" autoplay loop>
-            <source src="vid.mp4" type="video/mp4">
-            Welcome to world of Leaders
+        <video id="myVideo" preload="auto" autoplay loop muted>
+            <source src="./vid.mkv" type="video/mp4">
+         
         </video>
         <div class="video-overlay">
             <button id="muteButton" class="mute-button" onclick="toggleMute()">
+                <p class="text">Welcome to the world of Leaders<br>  Developed By Aman Yadav</p>
                 <span class="icon-mute">🔊</span>
                 <span class="icon-unmute">🔇</span>
             </button>
@@ -279,5 +280,6 @@
     </footer>
     
     <script src="script.js" defer></script>
+    <!-- <script src="server.js" defer></script> -->
 </body>
 </html>
